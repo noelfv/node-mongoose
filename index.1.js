@@ -9,10 +9,12 @@ const dbname='conFusion';
 connect.then((db)=>{
 
     console.log('Connected correctly to server');
-    Dishes.create({
+    var newDish = Dishes({
         name:'Uthappizza',
         description:'test'
-    }).then((dish)=>{
+    });
+
+    newDish.save().then((dish)=>{
         console.log(dish);
 
         return Dishes.find({}).exec();
