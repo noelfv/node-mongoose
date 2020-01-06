@@ -1,0 +1,16 @@
+{
+  "name": "node-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Noel Flores",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "mongoose": "^5.8.4"
+  }
+}
